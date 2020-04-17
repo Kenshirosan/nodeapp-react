@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import './ExampleComponent.css';
 import axios from 'axios';
 
-class ExampleComponent extends React.Component {
+class ExampleComponent extends Component {
     constructor() {
         super();
 
