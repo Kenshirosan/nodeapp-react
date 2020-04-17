@@ -1,0 +1,40 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App {
+  padding: 1em;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(186, 218, 85, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+pre {
+  margin: 25px 0;
+}
+code {
+  background: lightgrey;
+  padding: 1em;
+}
+h1,
+h2 {
+  color: antiquewhite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
