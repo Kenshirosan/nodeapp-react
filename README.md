@@ -3,7 +3,7 @@
 ## Installation:
 
 ```bash
-git clone https://github.com/Kenshirosan/nodeapp.git
+git clone https://github.com/Kenshirosan/nodeapp-react.git
 ```
 
 ```bash
@@ -18,7 +18,7 @@ cd /chemin/jusqu'a/nodeapp && npm i  && npm run client-install
 cd /path/to/app && npm run watch
 ```
 
-> Cette commande va demarrer le serveur sur le port 5000 et le client (navigateur) sur le port 8080, et monitorer les changements apporter aux fichiers, serveur ou client. 🔥 🔥 🔥 🔥
+> Cette commande va demarrer le serveur sur le port 5000 et le client (navigateur) sur le port 3000, et monitorer les changements apporter aux fichiers, serveur ou client. 🔥 🔥 🔥 🔥
 
 > Les pages se rafraichiront automatiquement a chaque sauvegarde de fichiers dans le client. 😄 😄 😄 😄
 
@@ -32,9 +32,9 @@ cd /path/to/app && npm run watch
 
 > Le client demande le fichier README.md ici: [http://localhost:5000/api/readme](http://localhost:5000/api/readme), le serveur prend ce fichier, le convertit en html et l'envoie en reponse. ❕ 👌
 
-> Le routeur du client est configure pour aller chercher les donnees a cette addresse [http://localhost:5000](http://localhost:5000), en ce qui concerne les routes du navigateur, ca ne change rien, pas de prefixe. Regardez l'url quand vous etes sur [http://localhost:8080](http://localhost:8080) et regarder ou part la requete ajax dans network (f12 ➡️ network).
+> Le routeur du client est configure pour aller chercher les donnees a cette addresse [http://localhost:5000](http://localhost:5000), en ce qui concerne les routes du navigateur, ca ne change rien, pas de prefixe. Regardez l'url quand vous etes sur [http://localhost:3000](http://localhost:3000) et regarder ou part la requete ajax dans network (f12 ➡️ network).
 
-> Dans client, j'ai installe la librairie Vue.js, mais j'aurai pu mettre autre choses, React ou pur JS 🥇 🙆‍♂.
+> Dans client, j'ai installe la librairie React 🥇 🙆‍♂.
 
 > On a donc bien un **serveur JS** et un **client JS**
 
@@ -47,8 +47,8 @@ cd /path/to/app && npm run watch
 -   On decide ce qu'on veut afficher
 -   On definit une route dans api
 -   Dans le client, on cree une route qui va aller chercher les donnees sur l'api
--   On Cree un 'component' Vuejs, qui affichera les donnees. (ExampleComponent.vue)
--   On importe ce 'component' dans App.vue
+-   On Cree un 'component' React, qui affichera les donnees. (ExampleComponent.js)
+-   On importe ce 'component' dans App.js
 -   Entre temps on lit les docs.
 
 ## Taches:
@@ -80,4 +80,4 @@ cd /path/to/app && npm run watch
 
 ## Lien vers le repo:
 
-[github](https://github.com/Kenshirosan/nodeapp.git)
+[github](https://github.com/Kenshirosan/nodeapp-react)
